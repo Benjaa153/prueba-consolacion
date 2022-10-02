@@ -1,0 +1,468 @@
+.navegacion {
+  width: 1900px;
+  margin: 200px auto;
+  background: #343e48;
+  position: relative;
+  z-index: 2;
+}
+
+.navegacion ul {
+  list-style: none;
+}
+.menu > li {
+  position: relative;
+  display: inline-block;
+  margin-left: 6rem;
+}
+
+.menu > li > a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  font-family: 'Open sans';
+  text-decoration: none;
+  text-align: center;
+  font-size: 17px;
+}
+
+.menu li a:hover {
+  color: #ce7d35;
+  transition: all 0.3s;
+}
+
+/* Submenu*/
+
+.submenu {
+  position: absolute;
+  background: #333333;
+  width: 160%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+
+.submenu li a {
+  display: block;
+  padding: 15px;
+  color: #fff;
+  font-family: 'Open sans';
+  text-decoration: none;
+}
+
+.menu li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+}
+
+.nav {
+  opacity: 0;
+}
+@media screen and (min-width: 360px) and (max-width: 650px) {
+  .navegacion {
+    opacity: 0;
+  }
+  .navegacion {
+    margin: 100px auto;
+  }
+  .slider {
+    visibility: hidden;
+  }
+  .post-list {
+    position: inherit;
+    top: 15rem;
+  }
+  .menu2,
+  .submenu2 {
+    position: relative;
+    z-index: 2;
+  }
+  .iconos_izq {
+    margin-left: 20rem;
+  }
+  .solidaridad {
+    left: 2.5rem;
+  }
+  .contenido-actualidad {
+    margin-top: 20rem;
+    margin-left: -41rem;
+  }
+  .multimedia-contenido {
+    margin-left: -38.5rem;
+  }
+  .img_youtube {
+    width: 54px;
+    height: 54px;
+  }
+
+  .img_pinteres {
+    width: 54px;
+    height: 54px;
+  }
+  .img_picasa {
+    position: absolute;
+    left: 62%;
+    top: 40px;
+    width: 64px;
+    height: 64px;
+  }
+  .img_instagram {
+    width: 54px;
+    height: 54px;
+  }
+  .img_issuu {
+    width: 54px;
+    height: 54px;
+  }
+  .img_banner {
+    left: 34rem;
+  }
+  .img_banner2 {
+    left: 16rem;
+  }
+  .img_banner3 {
+    left: 40rem;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 760px) {
+  .navegacion {
+    opacity: 0;
+  }
+  .navegacion {
+    margin: 100px auto;
+  }
+  .slider {
+    visibility: hidden;
+  }
+  .post-list {
+    position: inherit;
+  }
+  .menu2,
+  .submenu2 {
+    position: relative;
+    z-index: 2;
+  }
+  .actualidad-h2 {
+    margin-right: 9.5rem;
+  }
+
+  .iconos_izq {
+    margin-left: 20rem;
+  }
+
+  .img_youtube {
+    width: 54px;
+    height: 54px;
+  }
+
+  .img_pinteres {
+    width: 54px;
+    height: 54px;
+  }
+  .img_picasa {
+    width: 54px;
+    height: 54px;
+    left: 60%;
+  }
+  .img_instagram {
+    width: 54px;
+    height: 54px;
+  }
+  .img_issuu {
+    width: 54px;
+    height: 54px;
+  }
+}
+@media screen and (min-width: 764px) and (max-width: 1024px) {
+  .navegacion {
+    opacity: 0;
+  }
+  .navegacion {
+    margin: 100px auto;
+  }
+  .slider {
+    top: 2rem;
+  }
+  .menu {
+    margin-top: 20rem;
+  }
+  .post-list {
+    position: inherit;
+    top: 17rem;
+  }
+  .menu2,
+  .submenu2 {
+    position: relative;
+    z-index: 2;
+  }
+
+  .contenido-actualidad {
+    margin-top: 20rem;
+    margin-left: -30rem;
+  }
+  .multimedia-contenido {
+    margin-left: -30rem;
+  }
+  .iconos_izq {
+    margin-left: 32rem;
+  }
+  .solidaridad,
+  .multimedia {
+    width: 70%;
+    margin-bottom: 21px;
+    margin-top: 20px;
+    margin-left: 8rem;
+  }
+  .img_banner {
+    left: 35rem;
+  }
+  .img_banner2 {
+    left: 12rem;
+  }
+  .img_banner3 {
+    left: 42rem;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1280px) {
+  .navegacion {
+    width: 1500px;
+    margin: 170px auto;
+    background: #343e48;
+  }
+  .menu > li {
+    position: relative;
+    display: inline-block;
+    margin-left: 2rem;
+  }
+
+  .menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  /* Submenu*/
+
+  .submenu {
+    position: absolute;
+    width: 130%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+  }
+  .navegacion {
+    margin: 10px auto;
+  }
+
+  .menu {
+    margin-top: 38rem;
+  }
+  .post-list {
+    position: inherit;
+
+    top: 15rem;
+  }
+  .menu2,
+  .submenu2 {
+    position: relative;
+    z-index: 2;
+  }
+  .actualidad-h2 {
+    margin-left: 31.5rem;
+  }
+
+  .iconos_izq {
+    margin-left: 40rem;
+  }
+  .solidaridad,
+  .multimedia {
+    width: 70%;
+    margin-bottom: 21px;
+    margin-top: 20px;
+    margin-left: 8rem;
+  }
+
+  .contenido-actualidad {
+    margin-top: 20rem;
+    margin-left: -18rem;
+  }
+  .multimedia-contenido {
+    margin-left: -18rem;
+  }
+  .iconos_izq {
+    margin-left: 32rem;
+  }
+  .solidaridad,
+  .multimedia {
+    width: 70%;
+    margin-bottom: 21px;
+    margin-top: 20px;
+    margin-left: 8rem;
+  }
+}
+
+/* 
+@media all and (min-width: 600px){
+  .navegacion{
+      width:100%;
+      height:auto;
+      margin-left:10px;
+  }
+} */
+
+@media screen and (min-width: 1020px) and (max-width: 1669px) {
+  .navegacion {
+    visibility: hidden;
+  }
+  .nav-bar2 {
+    background: #343e48;
+
+    padding: 20px;
+    display: block;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.5em;
+    width: 100%;
+  }
+
+  .menu2,
+  .submenu2 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .menu2 {
+    background: #333333;
+
+    width: 100%;
+    margin-left: -100%;
+    transition: all 0.5s;
+  }
+
+  .menu__link {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    font-size: 1.4em;
+    text-decoration: none;
+  }
+  .submenu2 .menu__link {
+    background-color: #333;
+    padding-left: 50px;
+  }
+  .submenu2 {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s;
+  }
+  .mostrar {
+    margin-left: 0;
+  }
+  .contenido-actualidad {
+    margin-left: -15rem;
+  }
+  .multimedia-contenido {
+    margin-left: -15rem;
+  }
+
+  /* responsive  */
+}
+
+@media all and (min-width: 1600px) {
+  .nav-bar2 {
+    visibility: hidden;
+  }
+  .menu2,
+  .submenu2 {
+    visibility: hidden;
+  }
+  .main-nav {
+    width: 0;
+    height: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1600px) {
+  .navegacion {
+    width: 1500px;
+    margin: 170px auto;
+    background: #343e48;
+  }
+  .menu > li {
+    position: relative;
+    display: inline-block;
+    margin-left: 2rem;
+  }
+
+  .menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  /* Submenu*/
+
+  .submenu {
+    position: absolute;
+    width: 130%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+  }
+  .navegacion {
+    margin: 10px auto;
+  }
+
+  .menu {
+    margin-top: 38rem;
+  }
+  .post-list {
+    position: inherit;
+
+    top: 15rem;
+  }
+  .menu2,
+  .submenu2 {
+    position: relative;
+    z-index: 2;
+  }
+  .actualidad-h2 {
+    margin-left: 31.5rem;
+  }
+
+  .iconos_izq {
+    margin-left: 40rem;
+  }
+  .solidaridad,
+  .multimedia {
+    width: 70%;
+    margin-bottom: 21px;
+    margin-top: 20px;
+    margin-left: 8rem;
+  }
+  .contenido-actualidad {
+    margin-left: -15rem;
+    margin-top: 19rem;
+  }
+  .multimedia-contenido {
+    margin-left: -15rem;
+  }
+}
+
+@media screen and (min-width: 655px) and (max-width: 760px) {
+  .botones_redes{
+    top: 7rem;
+  }
+  .post-list {
+    top: 10rem;
+  }
+  .contenido-actualidad {
+    margin-left: -30rem;
+    margin-top: 19rem;
+  }
+  .multimedia-contenido {
+    margin-left: -30rem;
+  }
+}

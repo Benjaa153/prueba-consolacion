@@ -1,0 +1,92 @@
+.contenido {
+  position: relative;
+  margin: 0px auto;
+  clear: none;
+  float: none;
+  width: 100%;
+  max-width: 1005px;
+  height: auto;
+  text-align: center;
+}
+
+.contenedor_logo {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 147px;
+  clear: both;
+  background-image: url(../../Assets/Img/img_cabecera.jpg);
+  background-color: #fff;
+
+  box-shadow: 1px 2px 2px rgba(1, 2, 3, 0.4);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 3;
+}
+.img_logo {
+  position: absolute;
+  top: 10px;
+}
+.datos_logo {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 147px;
+  clear: both;
+}
+.botones_redes {
+  position: absolute;
+  width: 100%;
+  height: 52px;
+  bottom: 0;
+}
+
+.btn_redes {
+  position: relative;
+  float: right;
+  width: 68px;
+  height: 40px;
+  text-align: center;
+  font-size: 24px;
+  top: 50%;
+  margin-top: 30px;
+}
+
+.btn_youtube :hover {
+  color: #ff0000;
+}
+.btn_twitter :hover {
+  color: #1da1f2;
+}
+.btn_facebook :hover {
+  color: #4267b2;
+}
+.btn_contactar :hover {
+  color: #a50f58;
+}
+
+@media screen and (min-width: 360px) and (max-width: 650px) {
+  .btn_redes {
+    margin-top: 7rem;
+    margin-top: 100px;
+  }
+  .content {
+    margin-top: 15rem;
+  }
+}
+
+@media screen and (min-width: 725px) and (max-width: 980px) {
+  .navegacion {
+    opacity: 0;
+  }
+  .btn_redes {
+    float: right;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    font-size: 24px;
+    top: 50%;
+    margin-top: 30px;
+  }
+}
