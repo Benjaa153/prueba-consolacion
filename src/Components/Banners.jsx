@@ -6,12 +6,14 @@ import ImgFondoBanner3 from '../Assets/Img/wconso_foto_banner_10062banner_cabece
 import '../Styles/banners.css'
 const Banners = () => {
     return (
-        <div className="slider">
+        <div
+            className="slider tarjeta"
+            data-aos="fade-right">
             <ul className="ul-slider">
                 <li className="li-slider"><img className="img-slider" src={ImgFondoBanner1}></img></li>
                 <li className="li-slider"><img className="img-slider" src={ImgFondoBanner2}></img></li>
                 <li className="li-slider"><img className="img-slider" src={ImgFondoBanner3}></img></li>
-                
+
             </ul>
         </div>
     )
