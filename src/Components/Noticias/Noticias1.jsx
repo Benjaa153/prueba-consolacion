@@ -37,10 +37,11 @@ const Noticias = () => {
                                 className="post-link"
                                 title="MIRANDO A JESUCRISTO">
                                 Leer Más...
-                                <Link
-                                    to="/noticias1">
-                                </Link>
+
                             </a>
+                            <Link
+                                to="/noticias1">
+                            </Link>
                         </div>
                     </article>
 
@@ -59,10 +60,10 @@ const Noticias = () => {
                                 className="post-link"
                                 title="Visita del Gobierno Provincial a Eslovaquia">
                                 Leer Más...
-                                <Link
-                                    to="/noticias2">
-                                </Link>
                             </a>
+                            <Link
+                                to="/noticias2">
+                            </Link>
                         </div>
                     </article>
                     <article className='post'>
@@ -80,10 +81,11 @@ const Noticias = () => {
                                 className="post-link"
                                 title="Encuentro de jóvenes en formación para la VR">
                                 Leer Más...
-                                <Link
-                                    to="/noticias3">
-                                </Link>
+
                             </a>
+                            <Link
+                                to="/noticias3">
+                            </Link>
                         </div>
                     </article>
                 </div>

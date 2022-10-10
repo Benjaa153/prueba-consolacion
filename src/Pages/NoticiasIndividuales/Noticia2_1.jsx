@@ -1,9 +1,7 @@
 import React from 'react'
 import Header from '../Header'
 import '../../Styles/NoticiasIndividuales/NoticiasIndividuales.scss'
-
-
-const Noticia1_2 = () => {
+const Noticia2_1 = () => {
   return (
     <div>
       <Header />
@@ -13,7 +11,7 @@ const Noticia1_2 = () => {
             <article className="blog-card">
               <div className="blog-card__background">
                 <div className="card__background--wrapper">
-                  <div className="card__background--main img-noticia2"
+                  <div className="card__background--main img-noticia4"
                   >
                     <div className="card__background--layer"></div>
                   </div>
@@ -26,19 +24,25 @@ const Noticia1_2 = () => {
                 </span>
               </div>
               <div className="blog-card__info">
-                <h5>Visita del Gobierno Provincial a Eslovaquia</h5>
+                <h5>VI Jornada Nacional de la juventud en Loja (Ecuador)</h5>
                 <p>
                   <a href="#" className="icon-link mr-3"><i className="fa fa-pencil-square-o"></i></a>
                   <a href="#" className="icon-link"><i className="fa fa-comments-o"></i> </a>
                 </p>
                 <p className="blog-parrafo-p">
+                  Del 23 al 25 de septiembre, se llevó a cabo la VI Jornada Nacional de la juventud en Loja Ecuador, con el lema: “María se levantó y partió sin demora” Lc 1,39
 
-                  Los días del 8 al 11 de septiembre las comunidades de Eslovaquia tuvimos la visita de las hermanas de nuestro Gobierno Provincial. Una visita para compartir de cerca nuestra misión y nuestras preocupaciones, nuestros proyectos y conversar entre hermanas . Fueron unos días intensos de compartir en confianza y fraternidad. Las hermanas pudieron conocer el lugar, compaňeros y destinatarios de nuestra misión,  lo que hizo que nuestra reunión sobre el futuro de nuestras comunidades en Eslovaquia pudiera ser algo más encarnado y cercano para todas.
 
-                  Damos gracias al Seňor por la oportunidad de poder encontrarnos y asi seguir fortaleciendo y renovando nuestro sentido de pertenencia.
+                  La participación de más de 6.000 jóvenes, ha contagiado a la ciudad de Loja durante este fin de semana en las distintas parroquias, plazas y lugares adecuados para el evento. Junto con la Arquidiócesis de Cuenca, han participado dos hermanas de la Consolación acompañando a los jóvenes al grupo de El Valle y distintos grupos juveniles en el trayecto y en las actividades de la Jornada.
 
-                  En  nuestro corazón queda el deseo de seguir enriqueciendo nuestro Carisma con lo que vivimos en estas tierras Eslovacas dejándonos mirar por Él para que siendo sus instrumentos podamos seguir  llevando la Consolación a todos los que comparten con nosotras nuestro día a día.
 
+                  🇧🇷
+
+
+                  De 23 a 25 de setembro, foi realizado o VI Dia Nacional da Juventude em Loja Equador, com o lema: "Maria se levantou e partiu sem demora" Lc 1,39
+
+
+                  A participação de mais de 6.000 jovens, infectou a cidade de Loja durante este fim de semana nas diferentes paróquias, praças e locais adequados para o evento. Juntamente com a Arquidiocese de Cuenca, participaram duas irmãs de Consolação, acompanhando os jovens do grupo de El Valle e diferentes grupos de jovens na jornada e nas atividades do Dia.
                 </p>
                 <br></br>
                 <br></br>
@@ -58,4 +62,4 @@ const Noticia1_2 = () => {
   )
 }
 
-export default Noticia1_2
+export default Noticia2_1

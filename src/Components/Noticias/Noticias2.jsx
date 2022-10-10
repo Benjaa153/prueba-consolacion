@@ -1,6 +1,7 @@
 import React from 'react'
-import '../../Styles/noticias.css'
+import { Link } from 'react-router-dom'
 
+import '../../Styles/noticias.css'
 import '../../Helpers/main'
 import '../../Helpers/scroll.js'
 
@@ -29,12 +30,15 @@ const Noticias2 = () => {
 
                             </p>
                             <a
-                                href="https://www.consolacion.org/noticias/vi-jornada-nacional-de-la-juventud-en-loja--ecuador-#.Yzif-NLMKV4"
+                                href="/noticias4"
                                 className="post-link"
                                 title="VI Jornada Nacional de la juventud en Loja ">
                                 Leer Más...
 
                             </a>
+                            <Link
+                                to="/noticias4">
+                            </Link>
                         </div>
                     </article>
 
@@ -49,11 +53,14 @@ const Noticias2 = () => {
                                 O plano das actividades da acção social propõe de falar das profissões todo o mês de Agosto com o objectivo que as crianças vejam e conheçam várias profissões.
                             </p>
                             <a
-                                href="https://www.consolacion.org/noticias/m%cas-das-profiss%d5es-com-os-pequenos#.Yzij6NLMKV4"
+                                href="/noticias5"
                                 className="post-link"
                                 title="MÊS DAS PROFISSÕES COM OS PEQUENOS">
                                 Leer Más...
                             </a>
+                            <Link
+                                to="/noticias5">
+                            </Link>
                         </div>
                     </article>
                     <article className='post'>
@@ -62,16 +69,19 @@ const Noticias2 = () => {
                         </div>
                         <div className='post-body'>
                             <span>13 Septiembre 2022</span>
-                            <h2>Encuentro de jóvenes en formación para la VR</h2>
+                            <h2>CLOSING OF THE FRATERNAL VISIT TO THE DELEGATION OF ASIA</h2>
                             <p className='descripcion'>
                                 On September 11 Sr. Antonia Munuera Alemán our General Superior and Sr. Aránzazu Palau- General Secretary closed the Fraternal Visit to the Delegation of Asia
                             </p>
                             <a
-                                href="https://www.consolacion.org/noticias/encuentro-de-jovenes-en-formacion-para-la-vr#.Yzhq9dLMKV4"
+                                href="/noticias6"
                                 className="post-link"
-                                title="Encuentro de jóvenes en formación para la VR">
+                                title="CLOSING OF THE FRATERNAL VISIT TO THE DELEGATION OF ASIA">
                                 Leer Más...
                             </a>
+                            <Link
+                                to="/noticias6">
+                            </Link>
                         </div>
                     </article>
                 </div>
