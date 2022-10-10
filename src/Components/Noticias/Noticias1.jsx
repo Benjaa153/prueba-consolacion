@@ -3,7 +3,7 @@ import '../../Styles/noticias.css'
 import '../../Helpers/main'
 import '../../Helpers/scroll.js'
 import 'bootstrap/dist/css/bootstrap.css';
-
+import { Link } from 'react-router-dom'
 
 
 import AOS from 'aos';
@@ -33,11 +33,12 @@ const Noticias = () => {
                                 perpetuos en la Casa Madre, que se prolongará hasta el 15 de enero de 2023.
                             </p>
                             <a
-                                href="https://www.consolacion.org/noticias/mirando-a-jesucristo#.Yzhq19LMKV4"
+                                href="/noticias1"
                                 className="post-link"
                                 title="MIRANDO A JESUCRISTO">
                                 Leer Más...
-
+                                <Link
+                                    to="/noticias1"></Link>
                             </a>
                         </div>
                     </article>
