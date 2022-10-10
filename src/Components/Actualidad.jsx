@@ -1,9 +1,12 @@
 import React from 'react'
-
+import '../Helpers/scroll.js'
 import '../Styles/Actualidad.css'
 const Actualidad = () => {
     return (
-        <div className='contenido-actualidad'>
+        <div
+            className='contenido-actualidad tarjeta'
+            data-aos="fade-down-left"
+        >
             <div className="contenido_completo">
                 <div className="linea_centro"></div>
                 <img src="https://www.consolacion.org/img/actualidad.png" className="iconos_izq" title="Actualidad" alt="Actualidad" />

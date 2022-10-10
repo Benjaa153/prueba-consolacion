@@ -1,9 +1,13 @@
 import React from 'react'
+import '../Helpers/scroll.js'
 
 import '../Styles/Multimedia.css'
 const Multimedia = () => {
     return (
-        <div className="multimedia-contenido">
+        <div
+            className="multimedia-contenido tarjeta"
+            data-aos="fade-down-left"
+        >
             <div className="contenido_completo">
                 <div className="linea_centro"></div>
                 <h2 className="actualidad-h2">Multimedia · Redes </h2>
@@ -36,7 +40,10 @@ const Multimedia = () => {
             </div>
             <div className="linea_centro"></div>
 
-            <div className="contenedor-img">
+            <div
+                className="contenedor-img tarjeta"
+                data-aos="flip-up"
+            >
                 <img
                     src="https://www.consolacion.org/973/activos/imagen/wconso_foto_banner_pie_0189banner_pie-EJqtGapBWQc7I2HO.jpg"
                     alt="Movimiento Com"

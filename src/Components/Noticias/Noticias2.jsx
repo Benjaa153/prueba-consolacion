@@ -2,6 +2,7 @@ import React from 'react'
 import '../../Styles/noticias.css'
 
 import '../../Helpers/main'
+import '../../Helpers/scroll.js'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
