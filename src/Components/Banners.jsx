@@ -7,8 +7,8 @@ import '../Styles/banners.css'
 const Banners = () => {
     return (
         <div
-            className="slider tarjeta"
-            data-aos="fade-right">
+            className="slider"
+        >
             <ul className="ul-slider">
                 <li className="li-slider"><img className="img-slider" src={ImgFondoBanner1}></img></li>
                 <li className="li-slider"><img className="img-slider" src={ImgFondoBanner2}></img></li>
