@@ -38,7 +38,8 @@ const Noticias = () => {
                                 title="MIRANDO A JESUCRISTO">
                                 Leer Más...
                                 <Link
-                                    to="/noticias1"></Link>
+                                    to="/noticias1">
+                                </Link>
                             </a>
                         </div>
                     </article>
@@ -54,10 +55,13 @@ const Noticias = () => {
                                 Los días del 8 al 11 de septiembre las comunidades de Eslovaquia tuvimos la visita de las hermanas de nuestro Gobierno Provincial.
                             </p>
                             <a
-                                href="https://www.consolacion.org/noticias/visita-del-gobierno-provincial-a-eslovaquia#.YzhqpNLMKV4"
+                                href="/noticias2"
                                 className="post-link"
                                 title="Visita del Gobierno Provincial a Eslovaquia">
                                 Leer Más...
+                                <Link
+                                    to="/noticias2">
+                                </Link>
                             </a>
                         </div>
                     </article>
@@ -72,10 +76,13 @@ const Noticias = () => {
                                 "Contigo a todas partes"Con este lema, el sábado 17 de septiembre, un grupo de jóvenes que se preparan para la Vida Religiosa.
                             </p>
                             <a
-                                href="https://www.consolacion.org/noticias/encuentro-de-jovenes-en-formacion-para-la-vr#.Yzhq9dLMKV4"
+                                href="/noticias3"
                                 className="post-link"
                                 title="Encuentro de jóvenes en formación para la VR">
                                 Leer Más...
+                                <Link
+                                    to="/noticias3">
+                                </Link>
                             </a>
                         </div>
                     </article>
