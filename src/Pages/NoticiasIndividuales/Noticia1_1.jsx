@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../Header'
 
+import '../../Styles/NoticiasIndividuales/Noticias1_1.css'
 const Noticia1_1 = () => {
   return (
     <div>

@@ -10,6 +10,8 @@ import PaginaNoEncontrada from './Pages/PaginaNoEncontrada'
 import Noticia1_1 from "./Pages/NoticiasIndividuales/Noticia1_1";
 import Noticia1_2 from "./Pages/NoticiasIndividuales/Noticia1_2";
 import Noticia1_3 from "./Pages/NoticiasIndividuales/Noticia1_3";
+
+
 function App() {
 
   return (
