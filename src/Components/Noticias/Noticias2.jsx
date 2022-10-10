@@ -2,9 +2,17 @@ import React from 'react'
 import '../../Styles/noticias.css'
 
 import '../../Helpers/main'
+
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 const Noticias2 = () => {
     return (
-        <div>
+        <div
+            data-aos="fade-up-right"
+            className="tarjeta"
+        >
             <section className='post-list'>
                 <div className='content'>
                     <article className='post'>
@@ -55,7 +63,7 @@ const Noticias2 = () => {
                             <span>13 Septiembre 2022</span>
                             <h2>Encuentro de jóvenes en formación para la VR</h2>
                             <p className='descripcion'>
-                            On September 11 Sr. Antonia Munuera Alemán our General Superior and Sr. Aránzazu Palau- General Secretary closed the Fraternal Visit to the Delegation of Asia
+                                On September 11 Sr. Antonia Munuera Alemán our General Superior and Sr. Aránzazu Palau- General Secretary closed the Fraternal Visit to the Delegation of Asia
                             </p>
                             <a
                                 href="https://www.consolacion.org/noticias/encuentro-de-jovenes-en-formacion-para-la-vr#.Yzhq9dLMKV4"
