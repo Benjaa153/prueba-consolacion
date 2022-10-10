@@ -1,6 +1,5 @@
 import React from 'react'
 
-import '../Styles/responsive.css'
 import '../Styles/Multimedia.css'
 const Multimedia = () => {
     return (

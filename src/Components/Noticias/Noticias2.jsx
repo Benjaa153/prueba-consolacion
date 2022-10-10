@@ -1,6 +1,5 @@
 import React from 'react'
 import '../../Styles/noticias.css'
-import '../../Styles/responsive.css'
 
 import '../../Helpers/main'
 const Noticias2 = () => {

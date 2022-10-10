@@ -1,5 +1,4 @@
 import '../Styles/Headers/HeaderMenu.css'
-import '../Styles/responsive.css'
 
 const HeaderMenu = () => {
     return (

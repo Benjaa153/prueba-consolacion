@@ -1,6 +1,5 @@
 import React from 'react'
 import '../Styles/Headers/HeaderBarSup.scss'
-import '../Styles/responsive.css'
 
 const Header = () => {
     return (

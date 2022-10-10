@@ -1,7 +1,6 @@
 import React from 'react'
 import '../Styles/Headers/HeaderLogo.css'
 import '../Styles/Headers/search.css'
-import '../Styles/responsive.css'
 import 'bootstrap/dist/css/bootstrap.css';
 
 const HeaderLogo = () => {

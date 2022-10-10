@@ -1,4 +1,3 @@
-import '../Styles/responsive.css'
 import '../Styles/Headers/HeaderPhone.css'
 const HeaderMenuPhone = () => {
 

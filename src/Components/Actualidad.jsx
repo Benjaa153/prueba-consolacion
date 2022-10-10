@@ -1,6 +1,5 @@
 import React from 'react'
 
-import '../Styles/responsive.css'
 import '../Styles/Actualidad.css'
 const Actualidad = () => {
     return (
