@@ -528,3 +528,19 @@
     top: 4rem;
   }
 }
+
+@media screen and (min-width: 1070px) and (max-width: 1280px) {
+  .post-list {
+    position: inherit;
+    top: 20rem;
+  }
+  .img_banner {
+    left: 9rem;
+  }
+  .img_banner2 {
+    left: 10rem;
+  }
+  .img_banner3 {
+    left: 2rem;
+  }
+}
