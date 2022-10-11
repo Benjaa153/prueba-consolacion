@@ -17,6 +17,7 @@ const Noticias = () => {
         <div
             data-aos="fade-up-right"
             className="tarjeta"
+            duration="5000"
         >
             <section className='post-list'>
                 <div className='content'>

@@ -10,7 +10,7 @@ const Multimedia = () => {
         >
             <div className="contenido_completo">
                 <div className="linea_centro"></div>
-                <h2 className="actualidad-h2">Multimedia · Redes </h2>
+                <h2 className="actualidad-h2 multi-2">Multimedia · Redes </h2>
             </div>
 
             <div className="multimedia">
