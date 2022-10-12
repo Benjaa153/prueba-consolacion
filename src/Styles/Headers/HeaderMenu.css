@@ -57,6 +57,14 @@
 .nav {
   opacity: 0;
 }
+
+/* responsive  */
+
+/* telefonos
+- Moto G4
+- Iphone X
+
+*/
 @media screen and (min-width: 200px) and (max-width: 651px) {
   .navegacion {
     opacity: 0;
@@ -119,13 +127,13 @@
     height: 54px;
   }
   .img_banner {
-    left: 34rem;
+    left: 34.5rem;
   }
   .img_banner2 {
     left: 16rem;
   }
   .img_banner3 {
-    left: 40rem;
+    left: 41rem;
   }
   .actualidad-h2 {
     margin-left: 48rem !important;
@@ -182,6 +190,8 @@
     height: 54px;
   }
 }
+
+/* Ipad 768 x 1024 */
 @media screen and (min-width: 764px) and (max-width: 1024px) {
   .navegacion {
     opacity: 0;
@@ -224,13 +234,13 @@
     margin-left: 8rem;
   }
   .img_banner {
-    left: 35rem;
+    left: 35.5rem;
   }
   .img_banner2 {
     left: 12rem;
   }
   .img_banner3 {
-    left: 42rem;
+    left: 43.5rem;
   }
   .actualidad-h2 {
     margin-left: 50rem !important;
@@ -315,14 +325,7 @@
   }
 }
 
-/* 
-@media all and (min-width: 600px){
-  .navegacion{
-      width:100%;
-      height:auto;
-      margin-left:10px;
-  }
-} */
+
 @media screen and (max-width: 1600px) and (min-width: 200px) {
   .nav-bar2 {
     margin-top: -28rem;
@@ -522,6 +525,12 @@
   .iconos_izq {
     visibility: hidden;
   }
+  .img_banner {
+    margin-left: 35rem;
+  }
+  .img_banner3 {
+    left: 41rem;
+  }
 }
 /* responsive modo  */
 @media screen and (min-width: 500px) and (max-width: 593px) {
@@ -540,6 +549,16 @@
   }
   .post-list {
     top: 10rem;
+  }
+
+  .img_banner2 {
+    left: 14rem;
+  }
+  .img_banner {
+    left: 35rem;
+  }
+  .img_banner3 {
+    left: 42rem;
   }
 }
 
