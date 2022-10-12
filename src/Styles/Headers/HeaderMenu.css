@@ -74,11 +74,12 @@
     position: inherit;
     top: 18rem;
   }
-  .menu2,
+  .menu2 {
+    top: -10rem;
+  }
   .submenu2 {
     position: relative;
     z-index: 2;
-    top: -10rem;
   }
   .iconos_izq {
     margin-left: 20rem;
@@ -510,19 +511,19 @@
   }
 }
 
+/* iphone 12 13 pro xiaomi redmi note 8 pro */
 @media screen and (min-width: 390px) and (max-width: 393px) {
   .nav-bar2 {
     top: -8rem;
   }
-  .menu2,
-  .submenu2 {
+  .menu2 {
     top: -8rem;
   }
-  .iconos_izq{
+  .iconos_izq {
     visibility: hidden;
   }
 }
-
+/* responsive modo  */
 @media screen and (min-width: 500px) and (max-width: 593px) {
   .nav-bar2 {
     top: 3rem;
@@ -537,22 +538,20 @@
   .menu2 {
     top: 3rem;
   }
-  .post-list{
+  .post-list {
     top: 10rem;
-    
   }
- 
 }
 
+/* iphone 6 7 8 plus */
 @media screen and (min-width: 414px) and (max-width: 493px) {
   .nav-bar2 {
     top: -6rem;
   }
-  .menu2,
-  .submenu2 {
-    top: -7rem;
+  .menu2 {
+    top: -6rem;
   }
-  .iconos_izq{
+  .iconos_izq {
     visibility: hidden;
   }
 }
