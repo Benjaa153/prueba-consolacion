@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 import '../../Styles/noticias.css'
 import '../../Helpers/main'
 import '../../Helpers/scroll.js'
 import 'bootstrap/dist/css/bootstrap.css';
-import { Link } from 'react-router-dom'
 
 
 import AOS from 'aos';
