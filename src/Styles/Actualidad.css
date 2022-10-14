@@ -1,3 +1,4 @@
+/* Sin Errores  */
 .contenido_completo {
   position: relative;
 }
@@ -56,7 +57,6 @@
   width: calc(100% - 55px);
   width: -moz-calc(100% - 55px);
   width: -webkit-calc(100% - 55px);
-  width: -o-calc(100% - 55px);
   height: auto;
 }
 .contenido_multimedia {
@@ -96,7 +96,6 @@
   left: calc(25% - 48px);
   left: -moz-calc(25% - 48px);
   left: -webkit-calc(25% - 48px);
-  left: -o-calc(25% - 48px);
 }
 .img_icono2 {
   position: absolute;
@@ -106,7 +105,6 @@
   right: calc(25% - 30px);
   right: -moz-calc(25% - 30px);
   right: -webkit-calc(25% - 30px);
-  right: -o-calc(25% - 30px);
 }
 .img_m_rosa_molas {
   position: absolute;
@@ -115,7 +113,6 @@
   left: calc(22% - 20px);
   left: -moz-calc(25% - 30px);
   left: -webkit-calc(25% - 30px);
-  left: -o-calc(25% - 30px);
 }
 
 .img_misiones {
@@ -126,5 +123,4 @@
   right: calc(25% - 49px);
   right: -moz-calc(25% - 49px);
   right: -webkit-calc(25% - 49px);
-  right: -o-calc(25% - 49px);
 }
