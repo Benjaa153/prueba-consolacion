@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes as Rutas, Route as Ruta } from "react-r
 
 import PaginaPrincipal from "./PaginaPrincipal";
 import PaginaNoEncontrada from './Pages/PaginaNoEncontrada'
-
+import Footer from '../src/Pages/Footer'
 // importacion de noticias 1
 
 import Noticia1_1 from "./Pages/NoticiasIndividuales/Noticia1_1";
@@ -36,6 +36,8 @@ function App() {
 
         <Ruta path="*" element={<PaginaNoEncontrada />} />
       </Rutas>
+      <Footer />
+
     </Router>
   )
 }

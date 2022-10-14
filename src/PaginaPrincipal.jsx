@@ -16,7 +16,6 @@ const PaginaPrincipal = () => {
             <Noticias2 />
             <Actualidad />
             <Multimedia />
-            <Footer />
         </div>
     )
 }
