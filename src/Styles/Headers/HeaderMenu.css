@@ -142,6 +142,66 @@
   }
 }
 
+/* iphone 12 13 pro xiaomi redmi note 8 pro */
+@media screen and (min-width: 390px) and (max-width: 393px) {
+  .nav-bar2 {
+    top: -8rem;
+  }
+  .menu2 {
+    top: -8rem;
+  }
+  .iconos_izq {
+    visibility: hidden;
+  }
+  .img_banner {
+    margin-left: 35rem;
+  }
+  .img_banner3 {
+    left: 41rem;
+  }
+}
+/* iphone 6 7 8 plus */
+@media screen and (min-width: 414px) and (max-width: 493px) {
+  .nav-bar2 {
+    top: -6rem;
+  }
+  .menu2 {
+    top: -6rem;
+  }
+  .iconos_izq {
+    visibility: hidden;
+  }
+}
+
+/* responsive modo  */
+@media screen and (min-width: 500px) and (max-width: 593px) {
+  .nav-bar2 {
+    top: 3rem;
+  }
+  .botones_redes {
+    top: 7rem;
+    left: -4rem;
+  }
+  .search {
+    left: 2rem;
+  }
+  .menu2 {
+    top: 3rem;
+  }
+  .post-list {
+    top: 10rem;
+  }
+
+  .img_banner2 {
+    left: 14rem;
+  }
+  .img_banner {
+    left: 35rem;
+  }
+  .img_banner3 {
+    left: 42rem;
+  }
+}
 @media screen and (min-width: 650px) and (max-width: 760px) {
   .navegacion {
     opacity: 0;
@@ -192,6 +252,21 @@
     height: 54px;
   }
 }
+@media screen and (min-width: 655px) and (max-width: 760px) {
+  .botones_redes {
+    top: 7rem;
+  }
+  .post-list {
+    top: 10rem;
+  }
+  .contenido-actualidad {
+    margin-left: -30rem;
+    margin-top: 19rem;
+  }
+  .multimedia-contenido {
+    margin-left: -30rem;
+  }
+}
 
 /* Ipad 768 x 1024 */
 @media screen and (min-width: 764px) and (max-width: 1024px) {
@@ -204,7 +279,6 @@
   }
   .slider {
     top: 10rem;
-    
   }
   .menu {
     margin-top: 22rem;
@@ -327,7 +401,6 @@
     margin-left: 8rem;
   }
 }
-
 
 @media screen and (max-width: 1600px) and (min-width: 200px) {
   .nav-bar2 {
@@ -489,22 +562,6 @@
   }
 }
 
-@media screen and (min-width: 655px) and (max-width: 760px) {
-  .botones_redes {
-    top: 7rem;
-  }
-  .post-list {
-    top: 10rem;
-  }
-  .contenido-actualidad {
-    margin-left: -30rem;
-    margin-top: 19rem;
-  }
-  .multimedia-contenido {
-    margin-left: -30rem;
-  }
-}
-
 @media screen and (min-width: 1600px) and (max-width: 1700px) {
   .navegacion {
     visibility: visible;
@@ -514,67 +571,6 @@
   }
   .menu > li > a {
     padding: 10px 15px;
-  }
-}
-
-/* iphone 12 13 pro xiaomi redmi note 8 pro */
-@media screen and (min-width: 390px) and (max-width: 393px) {
-  .nav-bar2 {
-    top: -8rem;
-  }
-  .menu2 {
-    top: -8rem;
-  }
-  .iconos_izq {
-    visibility: hidden;
-  }
-  .img_banner {
-    margin-left: 35rem;
-  }
-  .img_banner3 {
-    left: 41rem;
-  }
-}
-/* responsive modo  */
-@media screen and (min-width: 500px) and (max-width: 593px) {
-  .nav-bar2 {
-    top: 3rem;
-  }
-  .botones_redes {
-    top: 7rem;
-    left: -4rem;
-  }
-  .search {
-    left: 2rem;
-  }
-  .menu2 {
-    top: 3rem;
-  }
-  .post-list {
-    top: 10rem;
-  }
-
-  .img_banner2 {
-    left: 14rem;
-  }
-  .img_banner {
-    left: 35rem;
-  }
-  .img_banner3 {
-    left: 42rem;
-  }
-}
-
-/* iphone 6 7 8 plus */
-@media screen and (min-width: 414px) and (max-width: 493px) {
-  .nav-bar2 {
-    top: -6rem;
-  }
-  .menu2 {
-    top: -6rem;
-  }
-  .iconos_izq {
-    visibility: hidden;
   }
 }
 
