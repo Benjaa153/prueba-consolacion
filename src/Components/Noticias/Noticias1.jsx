@@ -10,10 +10,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
-AOS.init();
 
 const Noticias = () => {
-
+    AOS.init();
     return (
         <div
             data-aos="fade-up-right"
@@ -24,8 +23,13 @@ const Noticias = () => {
                 <div className='content'>
                     <article className='post'>
                         <div className='post-header'>
-                            <div className='post-img-1'>
-                            </div>
+
+                            <a
+                                href="/noticias1"
+                            >
+                                <div className='post-img-1'></div>
+                            </a>
+
                         </div>
                         <div className='post-body'>
                             <span>01 Octubre 2022</span>
@@ -49,7 +53,13 @@ const Noticias = () => {
 
                     <article className='post'>
                         <div className='post-header'>
-                            <div className='post-img-2'></div>
+
+                            <a
+                                href="/noticias2"
+                            >
+                                <div className='post-img-2'></div>
+                            </a>
+
                         </div>
                         <div className='post-body'>
                             <span>13 Septiembre 2022</span>
@@ -69,9 +79,11 @@ const Noticias = () => {
                         </div>
                     </article>
                     <article className='post'>
-                        <div className='post-header'>
+                        <a
+                            href="/noticias3"
+                        >
                             <div className='post-img-3'></div>
-                        </div>
+                        </a>
                         <div className='post-body'>
                             <span>20 Septiembre 2022</span>
                             <h2>Encuentro de jóvenes en formación para la VR</h2>

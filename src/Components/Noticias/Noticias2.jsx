@@ -8,8 +8,8 @@ import '../../Helpers/scroll.js'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
-AOS.init();
 const Noticias2 = () => {
+    AOS.init();
     return (
         <div
             data-aos="fade-up-right"
@@ -21,8 +21,13 @@ const Noticias2 = () => {
                 <div className='content'>
                     <article className='post'>
                         <div className='post-header'>
-                            <div className='post-img-4'>
-                            </div>
+
+                            <a
+                                href="/noticias4"
+                            >
+                                <div className='post-img-4'></div>
+                            </a>
+
                         </div>
                         <div className='post-body'>
                             <span>28 Septiembre 2022</span>
@@ -46,7 +51,11 @@ const Noticias2 = () => {
 
                     <article className='post'>
                         <div className='post-header'>
-                            <div className='post-img-5'></div>
+                            <a
+                                href="/noticias5"
+                            >
+                                <div className='post-img-5'></div>
+                            </a>
                         </div>
                         <div className='post-body'>
                             <span>13 Septiembre 2022</span>
@@ -67,7 +76,13 @@ const Noticias2 = () => {
                     </article>
                     <article className='post'>
                         <div className='post-header'>
-                            <div className='post-img-6'></div>
+
+                            <a
+                                href="/noticias6"
+                            >
+                                <div className='post-img-6'></div>
+                            </a>
+
                         </div>
                         <div className='post-body'>
                             <span>13 Septiembre 2022</span>
