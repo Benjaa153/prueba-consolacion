@@ -6,7 +6,7 @@
   clear: none;
   float: none;
   width: 100%;
-  max-width: 1005px;
+  max-width: 63em;
   height: auto;
   text-align: center;
 }
@@ -15,7 +15,7 @@
   position: relative;
   float: left;
   width: 100%;
-  height: 147px;
+  height: 12.5em;
   clear: both;
   background-image: url(../../Assets/Img/img_cabecera.jpg);
   background-color: #fff;
@@ -28,31 +28,30 @@
 }
 .img_logo {
   position: absolute;
-  top: 10px;
+  top: 1em;
 }
 .datos_logo {
   position: relative;
   float: left;
   width: 100%;
-  height: 147px;
-  clear: both;
+  height: 8.2em;
 }
 .botones_redes {
   position: absolute;
   width: 100%;
-  height: 52px;
+  height: 3em;
   bottom: 0;
 }
 
 .btn_redes {
   position: relative;
   float: right;
-  width: 68px;
+  width: 2.9em;
   height: 40px;
   text-align: center;
-  font-size: 24px;
+  font-size: 1.5rem;
   top: 50%;
-  margin-top: 30px;
+  margin-top: 1.5em;
 }
 
 .btn_youtube :hover {
