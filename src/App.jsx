@@ -24,6 +24,9 @@ function App() {
     <Router>
       <Rutas>
         <Ruta path="/" element={<PaginaPrincipal />} />
+
+        {/* noticias del primer componente  */}
+
         <Ruta path="/noticias1" element={<Noticia1_1 />} />
         <Ruta path="/noticias2" element={<Noticia1_2 />} />
         <Ruta path="/noticias3" element={<Noticia1_3 />} />
