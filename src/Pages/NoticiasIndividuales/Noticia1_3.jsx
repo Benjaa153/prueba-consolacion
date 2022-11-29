@@ -12,6 +12,7 @@ const Noticia1_3 = () => {
             <article className="blog-card">
               <div className="blog-card__background">
                 <div className="card__background--wrapper">
+                  
                   <div className="card__background--main img-noticia3"
                   >
                     <div className="card__background--layer"></div>

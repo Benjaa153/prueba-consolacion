@@ -2,7 +2,7 @@ import React from 'react'
 import '../Styles/Headers/HeaderLogo.css'
 import '../Styles/Headers/search.css'
 import 'bootstrap/dist/css/bootstrap.css';
-
+import ImagenLogo from '../Assets/Img/LogoColegio.png'
 const HeaderLogo = () => {
     return (
         <div className="contenedor_logo">
@@ -10,7 +10,7 @@ const HeaderLogo = () => {
                 <div className="datos_logo">
                     <a href="https://www.consolacion.org" title="Hermanas de Nuestra Señora de la Consolación">
                         <img
-                            src="https://www.consolacion.org/img/consolacion.png"
+                            src={ImagenLogo}
                             className="img_logo" alt="Hermanas de Nuestra Señora de la Consolación"
                             title="Hermanas de Nuestra Señora de la Consolación"
                         />
@@ -36,7 +36,7 @@ const HeaderLogo = () => {
                         </a>
 
                         <a
-                            href="https://www.facebook.com/Consolaci%C3%B3n-HNS-466401060147414/timeline/"
+                            href="https://www.facebook.com/colegioconsolacionconcepcion"
                             className="btn_redes margin_redes btn_facebook target_blank"
                             title="Facebook">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="36" fill="currentColor" className="bi bi-facebook" viewBox="0 0 16 16">

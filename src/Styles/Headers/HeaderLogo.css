@@ -29,6 +29,7 @@
 .img_logo {
   position: absolute;
   top: 1em;
+  width: 500px;
 }
 .datos_logo {
   position: relative;

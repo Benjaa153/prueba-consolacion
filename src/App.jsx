@@ -17,6 +17,10 @@ import Noticia2_1 from "./Pages/NoticiasIndividuales/Noticia2_1";
 import Noticia2_2 from "./Pages/NoticiasIndividuales/Noticia2_2";
 import Noticia2_3 from "./Pages/NoticiasIndividuales/Noticia2_3";
 
+// importacion de noticias 3
+import Noticia3_1 from "./Pages/NoticiasIndividuales/Noticia3_1";
+
+import Documentos from "./Pages/Documentos";
 
 function App() {
 
@@ -24,6 +28,7 @@ function App() {
     <Router>
       <Rutas>
         <Ruta path="/" element={<PaginaPrincipal />} />
+        <Ruta path="/documentos" element={<Documentos />} />
 
         {/* noticias del primer componente  */}
 
@@ -35,7 +40,11 @@ function App() {
 
         <Ruta path="/noticias4" element={<Noticia2_1 />} />
         <Ruta path="/noticias5" element={<Noticia2_2 />} />
-        <Ruta path="/noticias6" element={<Noticia2_3 />} />2
+        <Ruta path="/noticias6" element={<Noticia2_3 />} />
+
+        {/* noticias del tercer componente  */}
+
+        <Ruta path="/noticias7" element={<Noticia3_1 />} />
 
         <Ruta path="*" element={<PaginaNoEncontrada />} />
       </Rutas>

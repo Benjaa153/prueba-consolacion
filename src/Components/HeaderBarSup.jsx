@@ -8,7 +8,7 @@ const Header = () => {
 
                 <a
                     className='a-bar'
-                    href="https://www.consolacion.org/documentos/seminario-dimension-social-carisma/"
+                    href="/documentos"
                     target="_blank"
                     data-title="Documentos">Documentos
                 </a>
